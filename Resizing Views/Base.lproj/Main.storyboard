@@ -3,8 +3,6 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
-        <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
-        <capability name="Constraints with non-1.0 multipliers" minToolsVersion="5.1"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -19,20 +17,16 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="upU-iE-NEG">
-                                <rect key="frame" x="150" y="150" width="300" height="300"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="HOq-zQ-9bR">
+                                <rect key="frame" x="277" y="285" width="46" height="30"/>
                                 <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="upU-iE-NEG" secondAttribute="height" multiplier="1:1" id="cek-8x-sCo"/>
-                                </constraints>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
-                            <constraint firstItem="upU-iE-NEG" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" multiplier="0.5" id="8az-Yp-nQb"/>
-                            <constraint firstItem="upU-iE-NEG" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="BXr-C1-jZ9"/>
-                            <constraint firstItem="upU-iE-NEG" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="sVd-vA-EMw"/>
+                            <constraint firstItem="HOq-zQ-9bR" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="ol3-I0-ImW"/>
+                            <constraint firstItem="HOq-zQ-9bR" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="yVr-Yv-52H"/>
                         </constraints>
                     </view>
                 </viewController>
